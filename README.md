@@ -2,3 +2,5 @@
 
 # Tetris-Basic
 Basic Tetris Game with JavaScript
+
+![image](https://user-images.githubusercontent.com/74496368/193831007-654843ff-7bab-4374-9f31-62114ca34efc.png)
