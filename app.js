@@ -12,7 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
     '#79e019',
     '#1976e0',
     '#a119e0',
-    '#e0194b'
+    '#e0194b',
+    '#4bf9ff',
+    '#ffe15a'
   ]
   // The Tertrominoes Shapes
   const lTetromino = [
@@ -21,7 +23,19 @@ document.addEventListener('DOMContentLoaded', () => {
     [1, width+1, width*2+1, width*2],
     [width, width*2, width*2+1, width*2+2]
   ]
+  const jTetromino = [
+    [1, width+1, width*2+1, 2],
+    [width, width+1, width+2, width*2+2],
+    [1, width+1, width*2+1, width*2],
+    [width, width*2, width*2+1, width*2+2]
+  ]
   const zTetromino = [
+    [0,width,width+1,width*2+1],
+    [width+1, width+2,width*2,width*2+1],
+    [0,width,width+1,width*2+1],
+    [width+1, width+2,width*2,width*2+1]
+  ]
+  const sTetromino = [
     [0,width,width+1,width*2+1],
     [width+1, width+2,width*2,width*2+1],
     [0,width,width+1,width*2+1],
@@ -45,8 +59,8 @@ document.addEventListener('DOMContentLoaded', () => {
     [1,width+1,width*2+1,width*3+1],
     [width,width+1,width+2,width+3]
   ]
-  const theTetrominoes = [lTetromino, zTetromino, tTetromino, oTetromino, iTetromino]
-  let currentPosition = 4
+  const theTetrominoes = [lTetromino, zTetromino, tTetromino, oTetromino, iTetromino, jTetromino, sTetromino]
+  let currentPosition = 6
   let currentRotation = 0
 //  console.log(theTetrominoes[0][0])
 
