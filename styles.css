@@ -1,34 +1,85 @@
+body {
+  font-family: Asap, Poppins, sans-serif;
+  padding: 50px;
+  margin: 50px;
+  background-color: #f1f1f1;
+  text-transform: uppercase;
+}
+
+.title {
+  text-align: center;
+  color: #1a1a1a;
+  font-weight: bold;
+}
+
 .container {
+  position: relative;
+  margin: auto;
+  top: 100px;
+  padding: 50px;
+  box-shadow: 0 0 15px #1a1a1a;
+  box-sizing: border-box;
   display: flex;
+  background-color: #e0e0e0;
+  max-width: 500px;
+  max-height: 1500px;
 }
 
 .grid {
+  margin: auto;
   width: 200px;
   height: 400px;
   display: flex;
   flex-wrap: wrap;
-  background-color: rgb(255, 214, 164);
+  background-color: #f1f1f1;
 }
 
 .grid div {
+  box-sizing: border-box;
+  border: 1px solid #e0e0e0;
   height: 20px;
   width: 20px;
 }
 
+.taken {
+  border: 0 solid #e0e0e0;
+}
+
 .tetromino {
+  box-sizing: border-box;
+  border: 1px solid #e0e0e0;
   background-color: #e0194b;
 }
 
 .mini-grid {
-  margin-left: 50px;
+  position: relative;
+  margin: auto;
+  top: 100px;
+  left: -70px;
   width: 80px;
   height: 80px;
   display: flex;
   flex-wrap: wrap;
-  background-color: rgb(255, 214, 164);
+  background-color: #f1f1f1;
 }
 
 .mini-grid div {
+  box-sizing: border-box;
+  border: 1px solid #e0e0e0;
   height: 20px;
   width: 20px;
+}
+
+.controls {
+  position: relative;
+  top: 100px;
+  left: 30px;
+  display: fixed;
+  flex-wrap: wrap;
+}
+
+.controls button {
+  position: relative;
+  left: -10px;
+  
 }
