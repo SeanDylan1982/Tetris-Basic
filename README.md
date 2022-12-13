@@ -5,4 +5,5 @@ https://tetris-basic.netlify.app/
 # Tetris-Basic
 Basic Tetris Game with JavaScript
 
-![image](https://user-images.githubusercontent.com/74496368/194711422-64f20325-292c-4f65-9995-03ea40b7fe6d.png)
+![image](https://user-images.githubusercontent.com/74496368/207423706-abe7ce07-8d23-4771-a69c-cd9d099598d9.png)
+
