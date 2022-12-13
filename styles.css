@@ -1,15 +1,16 @@
 body {
-  font-family: Asap, Poppins, sans-serif;
-  padding: 50px;
-  margin: 50px;
-  background-color: #f1f1f1;
+  font-family: 'Asap', 'Poppins', sans-serif;
+  padding: 0 30px;
+  margin: 0 30px;
+  background-color: #1a1a1a;
   text-transform: uppercase;
+  background: url(./img/tetris-bg.webp);
 }
 
 .title {
   text-align: center;
-  color: #1a1a1a;
-  font-weight: bold;
+  color: #ff9900;
+  font-weight: bolder;
 }
 
 .container {
@@ -17,69 +18,68 @@ body {
   margin: auto;
   top: 100px;
   padding: 50px;
-  box-shadow: 0 0 15px #1a1a1a;
+  box-shadow: 0 0 15px #0059ff;
   box-sizing: border-box;
   display: flex;
-  background-color: #e0e0e0;
-  max-width: 500px;
-  max-height: 1500px;
+  background-color: #0059ff99;
+  max-width: 800px;
+  max-height: 500px;
 }
 
 .grid {
-  margin: auto;
+  position: relative;
   width: 200px;
   height: 400px;
   display: flex;
   flex-wrap: wrap;
-  background-color: #f1f1f1;
+  left: 400px;
+  background-color: #a5b9dd;
 }
 
 .grid div {
   box-sizing: border-box;
-  border: 1px solid #e0e0e0;
   height: 20px;
   width: 20px;
 }
 
-.taken {
-  border: 0 solid #e0e0e0;
-}
-
 .tetromino {
   box-sizing: border-box;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #e0e0e099;
   background-color: #e0194b;
 }
 
 .mini-grid {
   position: relative;
   margin: auto;
-  top: 100px;
-  left: -70px;
+  top: 50px;
+  left: -100px;
   width: 80px;
   height: 80px;
   display: flex;
   flex-wrap: wrap;
-  background-color: #f1f1f1;
+  background-color: #a5b9dd;
 }
 
 .mini-grid div {
   box-sizing: border-box;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #a5b9dd;
   height: 20px;
   width: 20px;
 }
 
 .controls {
   position: relative;
-  top: 100px;
-  left: 30px;
+  top: 10px;
+  left: 440px;
   display: fixed;
   flex-wrap: wrap;
+  color: #f1f1f1;
+  text-align: center;
 }
 
 .controls button {
   position: relative;
-  left: -10px;
+  margin: 20px;
+  left: 10px;
   
 }
